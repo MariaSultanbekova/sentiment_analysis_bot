@@ -1,2 +1,2 @@
-# sentiment_analysis_bot
-A bot that determines the emotional coloring of an audio message
+## Hi!
+Recently, an idea came to me: why not make a bot that will warn me about the emotional coloring of the message?
