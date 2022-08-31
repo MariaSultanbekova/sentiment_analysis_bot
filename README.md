@@ -17,3 +17,4 @@ Encoders try to put the meaning of a sentence into a small encoded state, and th
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/attention_score.png)
 
+
