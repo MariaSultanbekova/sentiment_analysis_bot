@@ -13,7 +13,7 @@ The model is called BERT, it's from the transformers library. It consists of a s
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder-decoder.png)
 
-Encoders try to put the meaning of a sentence into a small encoded state, and the decoder looks at the hidden state of the encoders and, performing a mathematical operation, receives an attention score. These numbers show how important each encoder state is to the decoder. Then we apply softmax and get the weights, which we multiply by each state of the encoder and then add them up to get one attention output. This attention output vector is additional information about the offer and allows you to work with input data of huge length
+Encoders try to put the meaning of a sentence into a small encoded state, and the decoder looks at the hidden state of the encoders and, performing a mathematical operation, receives an attention score. These numbers show how important each encoder state is to the decoder. Then we apply softmax and get the weights, which we multiply by each state of the encoder and then add them up to get one attention output. This attention output vector is additional information about the sentence and allows you to work with input data of huge length
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/attention_score.png)
 
