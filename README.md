@@ -7,9 +7,8 @@ then train a neural network that will determine
 whether the message is positive or not(so that we can say that we don't have headphones or come up with another excuse),
 and then embed it all into the chat bot
 
-To begin with, I will tell you about the architecture of the neural network model that we will use, because it is really interesting
-
-The model is called BERT, it's from the transformers library. It consists of a sequence of encoders and decoders
+Before we go on to explain the architecture of the model that we will use, let's remember what attention is
+The attention mechanism consists of a sequence of encoders and decoders
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder-decoder.png)
 
