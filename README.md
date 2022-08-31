@@ -28,8 +28,9 @@ A transformer is a sequence of encoders and decoders, but the encoders here are 
 Inside it is the Self-Attention mechanism and a fully connected network. 
 
 ![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer.png)
+![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder.png)
 
 ## Self-Attention
 A sentence comes to the input of the self-attention block, then each word is encoded into embedding and 3 vectors, called query, key and value
 
-![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder.png)
+
