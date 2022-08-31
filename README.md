@@ -22,10 +22,11 @@ Encoders try to put the meaning of a sentence into a small encoded state, and th
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/attention_score.png)
 
 --------------------------------------------------------------------------------------------------------------
-Now we can move on to the architecture of our model from the transformers library, called BERT.
+Now we can move on to the architecture of our model from the transformers library, called BERT. 
+A transformer is a sequence of encoders and decoders, but the encoders here are unusual.
 
 ![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer.png)
 
-A transformer is a sequence of encoders and decoders, but the encoders here are unusual. Inside it is the Self-Attention mechanism and a fully connected network
+Inside it is the Self-Attention mechanism and a fully connected network
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder.png)
