@@ -7,6 +7,10 @@ then train a neural network that will determine
 whether the message is positive or not(so that we can say that we don't have headphones or come up with another excuse),
 and then embed it all into the chat bot
 
+
+# Model Architecture
+
+
 Before we go on to explain the architecture of the model that we will use, let's remember what attention is.
 
 The attention mechanism consists of a sequence of encoders and decoders
