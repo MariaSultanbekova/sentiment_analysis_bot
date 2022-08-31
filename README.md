@@ -1,4 +1,4 @@
-## Hi!
+# Hi!
 Recently, an idea came to me: why not make a bot that will warn me about the emotional coloring of the audio message? 
 I often wanted to have this thing😅
 
@@ -8,7 +8,7 @@ whether the message is positive or not(so that we can say that we don't have hea
 and then embed it all into the chat bot
 
 
-# Model Architecture
+## Model Architecture
 
 
 Before we go on to explain the architecture of the model that we will use, let's remember what attention is.
