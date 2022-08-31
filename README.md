@@ -19,3 +19,9 @@ Encoders try to put the meaning of a sentence into a small encoded state, and th
 
 --------------------------------------------------------------------------------------------------------------
 Now we can move on to the architecture of our model from the transformers library, called BERT.
+
+![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer.png)
+
+A transformer is a sequence of encoders and decoders, but the encoders here are unusual. Inside it is the attention mechanism and a fully connected network
+
+![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder.png)
