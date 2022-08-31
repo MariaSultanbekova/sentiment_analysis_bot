@@ -23,10 +23,13 @@ Encoders try to put the meaning of a sentence into a small encoded state, and th
 
 --------------------------------------------------------------------------------------------------------------
 Now we can move on to the architecture of our model from the transformers library, called BERT. 
-A transformer is a sequence of encoders and decoders, but the encoders here are unusual.
+
+A transformer is a sequence of encoders and decoders, but the encoders here are unusual. 
+Inside it is the Self-Attention mechanism and a fully connected network. 
 
 ![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer.png)
 
-Inside it is the Self-Attention mechanism and a fully connected network
+## Self-Attention
+A sentence comes to the input of the self-attention block, then each word is encoded into embedding and 3 vectors, called query, key and value
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder.png)
