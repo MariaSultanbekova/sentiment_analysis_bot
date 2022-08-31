@@ -26,6 +26,6 @@ Now we can move on to the architecture of our model from the transformers librar
 
 ![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer.png)
 
-A transformer is a sequence of encoders and decoders, but the encoders here are unusual. Inside it is the self-attention mechanism and a fully connected network
+A transformer is a sequence of encoders and decoders, but the encoders here are unusual. Inside it is the Self-Attention mechanism and a fully connected network
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder.png)
