@@ -28,7 +28,7 @@ A transformer is a sequence of encoders and decoders, but the encoders here are 
 
 Inside it is the Self-Attention mechanism and a fully connected network. 
 
-![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer.png)![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder.png)
+![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer_encoder.png)
 
 
 ## Self-Attention
