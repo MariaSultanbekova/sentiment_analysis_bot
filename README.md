@@ -32,6 +32,11 @@ Inside it is the Self-Attention mechanism and a fully connected network.
 
 
 ## Self-Attention
-A sentence comes to the input of the self-attention block, then each word is encoded into embedding and 3 vectors, called query, key and value
+A sentence comes to the input of the self-attention block, then each word is encoded into embedding and 3 vectors, called query, key and value:
+- the query vector is the encoded information of where one is looking from
+- a key vector is information about what is being looked at
+- the value vector contains the essence of the word
+
+
 
 
