@@ -32,7 +32,8 @@ Inside it is the Self-Attention mechanism and a fully connected network.
 
 
 ## Self-Attention
-A sentence comes to the input of the self-attention block, then each word is encoded into embedding and 3 vectors, called query, key and value:
+The sentence enters the encoder, where each word is marked with a position token, and is also translated into embedding (vector, which is a compressed representation of the word). These two vectors add up and arrive at self-attention. There embedding is encoded into 3 other vectors, using multiplication by special matrices query, key and value:
+
 - the query vector is the encoded information of where one is looking from
 - a key vector is information about what is being looked at
 - the value vector contains the essence of the word
@@ -40,5 +41,6 @@ A sentence comes to the input of the self-attention block, then each word is enc
 Then we perform some mathematical operations, which are shown in the picture.
 
 A word that has passed through the Self-Attention mechanism turns into a vector z. We have several Self-Attention heads, each of which conveys a special semantic meaning to the vector (it's like with convolutional neural networks, each core is looking for its patch in the picture) and therefore several z vectors.
+We concatenate and flatten these vectors by multiplying them by a special matrix
 
 
