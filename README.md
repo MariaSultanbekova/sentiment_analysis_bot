@@ -43,4 +43,8 @@ Then we perform some mathematical operations, which are shown in the picture.
 A word that has passed through the Self-Attention mechanism turns into a vector z. We have several Self-Attention heads, each of which conveys a special semantic meaning to the vector (it's like with convolutional neural networks, each core is looking for its patch in the picture) and therefore several z vectors.
 We concatenate and flatten these vectors by multiplying them by a special matrix
 
+Next we move on to Layer-Norm. It's like skip connections, made to solve the vanishing gradient problem
+
+![](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/layer_norm.png)
+
 
