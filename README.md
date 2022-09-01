@@ -7,24 +7,10 @@ then train a neural network that will determine
 whether the message is positive or not(so that we can say that we don't have headphones or come up with another excuse),
 and then embed it all into the chat bot
 
-
-## Model Architecture
-
-
-Before we go on to explain the architecture of the model that we will use, let's remember what attention is.
-
-The attention mechanism consists of a sequence of encoders and decoders
-
-![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/encoder-decoder.png)
-
-Encoders try to put the meaning of a sentence into a small encoded state, and the decoder looks at the hidden state of the encoders and, performing a mathematical operation, receives an attention score. These numbers show how important each encoder state is to the decoder. Then we apply softmax and get the weights, which we multiply by each state of the encoder and then add them up to get one attention output. This attention output vector is additional information about the sentence and allows you to work with input data of huge length
-
-![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/attention_score.png)
-
 --------------------------------------------------------------------------------------------------------------
-## Now we can move on to the architecture of our model from the transformers library, called BERT. 
+## Now let's talk about the model architecture from the transformers library, called BERT, which we will use
 
-A transformer is a sequence of encoders and decoders, but the encoders here are unusual. 
+The transformer itself is a sequence of encoders and decoders, but the encoders here are unusual. 
 
 Inside it is the Self-Attention mechanism and a fully connected network. 
 
