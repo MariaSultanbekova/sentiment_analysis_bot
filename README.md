@@ -37,6 +37,8 @@ A sentence comes to the input of the self-attention block, then each word is enc
 - a key vector is information about what is being looked at
 - the value vector contains the essence of the word
 
+Then we perform some mathematical operations, which are shown in the picture.
 
+A word that has passed through the Self-Attention mechanism turns into a vector z. We have several Self-Attention heads, each of which conveys a special semantic meaning to the vector (it's like with convolutional neural networks, each core is looking for its patch in the picture) and therefore several z vectors.
 
 
