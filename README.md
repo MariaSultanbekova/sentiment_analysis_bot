@@ -39,6 +39,8 @@ Next we move on to Layer-Norm. It's like skip connections, made to solve the van
 The main task of transformers is the translation from one representation to another (machine translation for example). 
 The bottom line is that we want to solve other tasks besides language translation, and for this, let's submit a sentence together with a special CLS token.
 
-This token will contain compressed information about the entire text, and then we can use it to solve the classification problem.
+This token will contain compressed information about the entire text, and then we can use it to solve the classification problem. 
+And also, let's solve the problem of language modeling. To do this, let's skip some words in the sentence and try to predict them.
+We just want the model to rely on context
 
 
