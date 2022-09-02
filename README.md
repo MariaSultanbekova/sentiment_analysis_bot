@@ -34,4 +34,11 @@ Next we move on to Layer-Norm. It's like skip connections, made to solve the van
 
 ![](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/layer_norm.png)
 
+## Differences between the BERT model and a simple transformer
+
+The main task of transformers is the translation from one representation to another (machine translation for example). 
+The bottom line is that we want to solve other tasks besides language translation, and for this, let's submit a sentence together with a special CLS token.
+
+This token will contain compressed information about the entire text, and then we can use it to solve the classification problem.
+
 
