@@ -45,4 +45,4 @@ We just want the model to rely on context
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/CLS-token_and_language_modeling.png)
 
-BERT was trained based on huge amounts of data from Wikipedia, and we will need to train it a little for our task.
+BERT was trained based on huge amounts of data from Wikipedia, and we will need to train it a little for our task. To do this, I found a dataset with thousands of reviews on Amazon, which are marked up into positive and negative
