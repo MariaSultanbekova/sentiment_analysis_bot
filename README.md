@@ -8,7 +8,8 @@ whether the message is positive or not(so that we can say that we don't have hea
 and then embed it all into the chat bot
 
 --------------------------------------------------------------------------------------------------------------
-## Now let's talk about the model architecture from the transformers library, called BERT, which we will use
+## In our project, we will use a model from the transformers library. It's called BERT.
+Now I will briefly tell you what transformer is and how the BERT model differs.
 
 The transformer itself is a sequence of encoders and decoders, but the encoders here are unusual. 
 
