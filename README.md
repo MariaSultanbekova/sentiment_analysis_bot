@@ -13,7 +13,6 @@ and then embed it all into the chat bot
 This is a model from the transformers library, called BERT
 
 The transformer itself is a sequence of encoders and decoders, but the encoders here are unusual. 
-
 Inside it is the Self-Attention mechanism and a fully connected network. 
 
 ![header](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/transformer_encoder.png)
