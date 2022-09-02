@@ -44,3 +44,5 @@ And also, let's solve the problem of language modeling. To do this, let's skip s
 We just want the model to rely on context
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/CLS-token_and_language_modeling.png)
+
+BERT was trained based on huge amounts of data from Wikipedia, and we will need to train it a little for our task.
