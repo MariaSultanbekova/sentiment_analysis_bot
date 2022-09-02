@@ -40,7 +40,7 @@ The main task of transformers is the translation from one representation to anot
 The bottom line is that we want to solve other tasks besides language translation, and for this, let's submit a sentence together with a special CLS token.
 
 This token will contain compressed information about the entire text, and then we can use it to solve the classification problem. 
-And also, let's solve the problem of language modeling. To do this, let's skip some words in the sentence and try to predict them.
+And also, let's solve the problem of language modeling. To do this, let's skip some words in the sentence and try to predict them. And let's solve another problem, is 2 sentences consecutive or not.
 We just want the model to rely on context
 
 ![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/CLS-token_and_language_modeling.png)
