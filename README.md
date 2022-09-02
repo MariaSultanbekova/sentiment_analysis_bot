@@ -43,4 +43,4 @@ This token will contain compressed information about the entire text, and then w
 And also, let's solve the problem of language modeling. To do this, let's skip some words in the sentence and try to predict them.
 We just want the model to rely on context
 
-
+![head](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/CLS-token_and_language_modeling.png)
