@@ -1,4 +1,5 @@
 # Hi!
+
 Recently, an idea came to me: why not make a bot that will warn me about the emotional coloring of the audio message? 
 I often wanted to have this thing😅
 This bot can also be used in telegram groups to warn the admin about the possible beginning of a verbal altercation.
@@ -48,6 +49,18 @@ We just want the model to rely on context
 
 BERT was trained based on huge amounts of data from Wikipedia, and we will need to train it a little for our task. To do this, I found a dataset with thousands of reviews on Amazon, which are marked up into positive and negative
 
-Here is the result after training:
+
+Here is the output of our model:
 
 ![](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/result.png)
+
+Training code ____
+
+Well, for audio processing, we'll take the Silero model
+https://www.silero.ai/
+Works well and fast
+
+
+And the code for the full launch of the bot is here ______
+
+That's all, you can use)
