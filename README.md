@@ -54,13 +54,15 @@ Here is the output of our model:
 
 ![](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/result.png)
 
-Training code ____
+Training code https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/train.ipynb
 
 Well, for audio processing, we'll take the Silero model
 https://www.silero.ai/
-Works well and fast
+(Works well and fast)
 
 
-And the code for the full launch of the bot is here ______
+And the code for the full launch of the bot is here https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/telegram_bot.ipynb
+
+![](https://github.com/MariaSultanbekova/sentiment_analysis_bot/blob/main/result_in_telegram.png)
 
 That's all, you can use)
